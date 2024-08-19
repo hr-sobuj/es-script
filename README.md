@@ -11,13 +11,10 @@ This script connects to an Elasticsearch instance and deletes all indices.
 
 The script requires the following Python packages:
 
-- `elasticsearch==8.14.0`
 - `certifi==2024.7.4`
+- `elastic-transport==8.13.1`
+- `elasticsearch==8.14.0`
 - `urllib3==2.2.2`
-- `requests==2.32.3`
-- `jsonschema==4.23.0`
-- `PyYAML==6.0.1`
-- `ray==2.31.0`
 - and others listed in the `requirements.txt`
 
 ## Setup
@@ -37,7 +34,7 @@ It is recommended to create a virtual environment to manage your dependencies. Y
 
 ```bash
 # Create a virtual environment
-python -m venv venv
+python3 -m venv .venv
 
 # Activate the virtual environment
 # On Windows:
