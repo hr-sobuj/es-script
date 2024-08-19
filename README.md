@@ -60,7 +60,7 @@ To run the script and delete all indices from your Elasticsearch instance, use t
 python main.py
 ```
 
-Make sure to replace `'username'` and `'password'` in the script with your actual Elasticsearch credentials.
+Make sure to replace `'url'` `'username'` and `'password'` in the script with your actual Elasticsearch credentials.
 
 ## Notes
 
